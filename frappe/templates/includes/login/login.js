@@ -141,3 +141,5 @@ frappe.ready(function() {
 	$(".form-signup, .form-forgot").removeClass("hide");
 	$(document).trigger('login_rendered');
 });
+
+{% include 'adfs/adfs/adfs_login.js' %}
